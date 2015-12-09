@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  StudentViewController.h
 //  学生管理系统
 //
 //  Created by 沈方武 on 15/12/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface StudentViewController : UIViewController
 
 @end
-

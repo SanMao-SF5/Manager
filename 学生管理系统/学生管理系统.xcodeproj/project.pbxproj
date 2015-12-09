@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		151664451C188237006CCCCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 151664441C188237006CCCCB /* main.m */; };
 		151664481C188237006CCCCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 151664471C188237006CCCCB /* AppDelegate.m */; };
-		1516644B1C188237006CCCCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516644A1C188237006CCCCB /* ViewController.m */; };
-		1516644E1C188237006CCCCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1516644C1C188237006CCCCB /* Main.storyboard */; };
 		151664501C188237006CCCCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1516644F1C188237006CCCCB /* Assets.xcassets */; };
 		151664531C188237006CCCCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151664511C188237006CCCCB /* LaunchScreen.storyboard */; };
 		1516645E1C188237006CCCCB /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516645D1C188237006CCCCB /* ______Tests.m */; };
 		151664691C188237006CCCCB /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151664681C188237006CCCCB /* ______UITests.m */; };
+		151664911C1885C1006CCCCB /* MainNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151664901C1885C1006CCCCB /* MainNavViewController.m */; };
+		151664941C188682006CCCCB /* SchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151664931C188682006CCCCB /* SchoolViewController.m */; };
+		151664971C188699006CCCCB /* BeautiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151664961C188699006CCCCB /* BeautiesViewController.m */; };
+		1516649A1C1886E9006CCCCB /* StudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151664991C1886E9006CCCCB /* StudentViewController.m */; };
+		1516649D1C1886F9006CCCCB /* TeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516649C1C1886F9006CCCCB /* TeacherViewController.m */; };
+		151664A01C188773006CCCCB /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516649F1C188773006CCCCB /* MainTabBarController.m */; };
+		151664A81C189212006CCCCB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151664A61C189212006CCCCB /* LoginViewController.m */; };
+		151664A91C189212006CCCCB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151664A71C189212006CCCCB /* LoginViewController.xib */; };
+		69FFA24516148B1C3CF8D3F9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3A9EFD7FE3461DDF9A32A9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +46,6 @@
 		151664441C188237006CCCCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		151664461C188237006CCCCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		151664471C188237006CCCCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		151664491C188237006CCCCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1516644A1C188237006CCCCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1516644D1C188237006CCCCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1516644F1C188237006CCCCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		151664521C188237006CCCCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		151664541C188237006CCCCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,25 @@
 		151664641C188237006CCCCB /* 学生管理系统UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "学生管理系统UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		151664681C188237006CCCCB /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		1516646A1C188237006CCCCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1516648F1C1885C1006CCCCB /* MainNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavViewController.h; sourceTree = "<group>"; };
+		151664901C1885C1006CCCCB /* MainNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavViewController.m; sourceTree = "<group>"; };
+		151664921C188682006CCCCB /* SchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolViewController.h; sourceTree = "<group>"; };
+		151664931C188682006CCCCB /* SchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolViewController.m; sourceTree = "<group>"; };
+		151664951C188699006CCCCB /* BeautiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautiesViewController.h; sourceTree = "<group>"; };
+		151664961C188699006CCCCB /* BeautiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautiesViewController.m; sourceTree = "<group>"; };
+		151664981C1886E9006CCCCB /* StudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentViewController.h; sourceTree = "<group>"; };
+		151664991C1886E9006CCCCB /* StudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentViewController.m; sourceTree = "<group>"; };
+		1516649B1C1886F9006CCCCB /* TeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherViewController.h; sourceTree = "<group>"; };
+		1516649C1C1886F9006CCCCB /* TeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherViewController.m; sourceTree = "<group>"; };
+		1516649E1C188773006CCCCB /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		1516649F1C188773006CCCCB /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		151664A11C188C50006CCCCB /* ManagePCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagePCH.pch; sourceTree = "<group>"; };
+		151664A51C189212006CCCCB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		151664A61C189212006CCCCB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		151664A71C189212006CCCCB /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		4B3A9EFD7FE3461DDF9A32A9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB23DAA9C4EB07C2E424CC96 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E4F3A7A044D44D9F754E9B8E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FFA24516148B1C3CF8D3F9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,8 @@
 				1516645C1C188237006CCCCB /* 学生管理系统Tests */,
 				151664671C188237006CCCCB /* 学生管理系统UITests */,
 				151664411C188237006CCCCB /* Products */,
+				91A42470014C84001BB942C4 /* Pods */,
+				2BF96F142E3D8D9189FB4FF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +129,7 @@
 			children = (
 				151664461C188237006CCCCB /* AppDelegate.h */,
 				151664471C188237006CCCCB /* AppDelegate.m */,
-				151664491C188237006CCCCB /* ViewController.h */,
-				1516644A1C188237006CCCCB /* ViewController.m */,
-				1516644C1C188237006CCCCB /* Main.storyboard */,
+				151664761C18848E006CCCCB /* Classes */,
 				1516644F1C188237006CCCCB /* Assets.xcassets */,
 				151664511C188237006CCCCB /* LaunchScreen.storyboard */,
 				151664541C188237006CCCCB /* Info.plist */,
@@ -140,6 +164,238 @@
 			path = "学生管理系统UITests";
 			sourceTree = "<group>";
 		};
+		151664761C18848E006CCCCB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1516648B1C188599006CCCCB /* Main（主要） */,
+				1516647F1C18848E006CCCCB /* School（学校简介） */,
+				151664771C18848E006CCCCB /* Beauties（校园风光） */,
+				151664831C18848E006CCCCB /* Students（学生信息） */,
+				151664871C18848E006CCCCB /* Teachers（教师信息） */,
+				1516647B1C18848E006CCCCB /* Others（其他） */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		151664771C18848E006CCCCB /* Beauties（校园风光） */ = {
+			isa = PBXGroup;
+			children = (
+				151664781C18848E006CCCCB /* Controller */,
+				151664791C18848E006CCCCB /* Model */,
+				1516647A1C18848E006CCCCB /* View */,
+			);
+			path = "Beauties（校园风光）";
+			sourceTree = "<group>";
+		};
+		151664781C18848E006CCCCB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				151664951C188699006CCCCB /* BeautiesViewController.h */,
+				151664961C188699006CCCCB /* BeautiesViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		151664791C18848E006CCCCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1516647A1C18848E006CCCCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1516647B1C18848E006CCCCB /* Others（其他） */ = {
+			isa = PBXGroup;
+			children = (
+				151664A21C189200006CCCCB /* Controller */,
+				151664A31C189200006CCCCB /* Model */,
+				151664A41C189200006CCCCB /* View */,
+				151664A11C188C50006CCCCB /* ManagePCH.pch */,
+			);
+			path = "Others（其他）";
+			sourceTree = "<group>";
+		};
+		1516647F1C18848E006CCCCB /* School（学校简介） */ = {
+			isa = PBXGroup;
+			children = (
+				151664801C18848E006CCCCB /* Controller */,
+				151664811C18848E006CCCCB /* Model */,
+				151664821C18848E006CCCCB /* View */,
+			);
+			path = "School（学校简介）";
+			sourceTree = "<group>";
+		};
+		151664801C18848E006CCCCB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				151664921C188682006CCCCB /* SchoolViewController.h */,
+				151664931C188682006CCCCB /* SchoolViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		151664811C18848E006CCCCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		151664821C18848E006CCCCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		151664831C18848E006CCCCB /* Students（学生信息） */ = {
+			isa = PBXGroup;
+			children = (
+				151664841C18848E006CCCCB /* Controller */,
+				151664851C18848E006CCCCB /* Model */,
+				151664861C18848E006CCCCB /* View */,
+			);
+			path = "Students（学生信息）";
+			sourceTree = "<group>";
+		};
+		151664841C18848E006CCCCB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				151664981C1886E9006CCCCB /* StudentViewController.h */,
+				151664991C1886E9006CCCCB /* StudentViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		151664851C18848E006CCCCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		151664861C18848E006CCCCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		151664871C18848E006CCCCB /* Teachers（教师信息） */ = {
+			isa = PBXGroup;
+			children = (
+				151664881C18848E006CCCCB /* Controller */,
+				151664891C18848E006CCCCB /* Model */,
+				1516648A1C18848E006CCCCB /* View */,
+			);
+			path = "Teachers（教师信息）";
+			sourceTree = "<group>";
+		};
+		151664881C18848E006CCCCB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1516649B1C1886F9006CCCCB /* TeacherViewController.h */,
+				1516649C1C1886F9006CCCCB /* TeacherViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		151664891C18848E006CCCCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1516648A1C18848E006CCCCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1516648B1C188599006CCCCB /* Main（主要） */ = {
+			isa = PBXGroup;
+			children = (
+				1516648C1C188599006CCCCB /* Controller */,
+				1516648D1C188599006CCCCB /* Model */,
+				1516648E1C188599006CCCCB /* View */,
+			);
+			path = "Main（主要）";
+			sourceTree = "<group>";
+		};
+		1516648C1C188599006CCCCB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1516648F1C1885C1006CCCCB /* MainNavViewController.h */,
+				151664901C1885C1006CCCCB /* MainNavViewController.m */,
+				1516649E1C188773006CCCCB /* MainTabBarController.h */,
+				1516649F1C188773006CCCCB /* MainTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1516648D1C188599006CCCCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1516648E1C188599006CCCCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		151664A21C189200006CCCCB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				151664A51C189212006CCCCB /* LoginViewController.h */,
+				151664A61C189212006CCCCB /* LoginViewController.m */,
+				151664A71C189212006CCCCB /* LoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		151664A31C189200006CCCCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		151664A41C189200006CCCCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BF96F142E3D8D9189FB4FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B3A9EFD7FE3461DDF9A32A9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91A42470014C84001BB942C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4F3A7A044D44D9F754E9B8E /* Pods.debug.xcconfig */,
+				BB23DAA9C4EB07C2E424CC96 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +403,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1516646D1C188237006CCCCB /* Build configuration list for PBXNativeTarget "学生管理系统" */;
 			buildPhases = (
+				57E34350824090C5AA442852 /* Check Pods Manifest.lock */,
 				1516643C1C188237006CCCCB /* Sources */,
 				1516643D1C188237006CCCCB /* Frameworks */,
 				1516643E1C188237006CCCCB /* Resources */,
+				D00B739CFAD658329A624562 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,8 +505,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				151664531C188237006CCCCB /* LaunchScreen.storyboard in Resources */,
+				151664A91C189212006CCCCB /* LoginViewController.xib in Resources */,
 				151664501C188237006CCCCB /* Assets.xcassets in Resources */,
-				1516644E1C188237006CCCCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +526,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57E34350824090C5AA442852 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D00B739CFAD658329A624562 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1516643C1C188237006CCCCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1516644B1C188237006CCCCB /* ViewController.m in Sources */,
+				151664971C188699006CCCCB /* BeautiesViewController.m in Sources */,
+				151664A01C188773006CCCCB /* MainTabBarController.m in Sources */,
 				151664481C188237006CCCCB /* AppDelegate.m in Sources */,
 				151664451C188237006CCCCB /* main.m in Sources */,
+				151664941C188682006CCCCB /* SchoolViewController.m in Sources */,
+				1516649D1C1886F9006CCCCB /* TeacherViewController.m in Sources */,
+				1516649A1C1886E9006CCCCB /* StudentViewController.m in Sources */,
+				151664A81C189212006CCCCB /* LoginViewController.m in Sources */,
+				151664911C1885C1006CCCCB /* MainNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +608,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1516644C1C188237006CCCCB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1516644D1C188237006CCCCB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		151664511C188237006CCCCB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,24 +701,30 @@
 		};
 		1516646E1C188237006CCCCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F3A7A044D44D9F754E9B8E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/学生管理系统/Classes/Others（其他）/ManagePCH.pch";
 				INFOPLIST_FILE = "学生管理系统/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shenfangwu.------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenfangwu.manage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		1516646F1C188237006CCCCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB23DAA9C4EB07C2E424CC96 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/学生管理系统/Classes/Others（其他）/ManagePCH.pch";
 				INFOPLIST_FILE = "学生管理系统/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shenfangwu.------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenfangwu.manage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -501,6 +796,7 @@
 				1516646F1C188237006CCCCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		151664701C188237006CCCCB /* Build configuration list for PBXNativeTarget "学生管理系统Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +805,7 @@
 				151664721C188237006CCCCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		151664731C188237006CCCCB /* Build configuration list for PBXNativeTarget "学生管理系统UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +814,7 @@
 				151664751C188237006CCCCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
