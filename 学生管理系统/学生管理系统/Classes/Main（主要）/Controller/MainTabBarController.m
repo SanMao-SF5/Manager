@@ -71,7 +71,8 @@
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selImage];
     
     // 设置各控制器的背景色
-    vc.view.backgroundColor = RandomColor;
+//    vc.view.backgroundColor = RandomColor;
+    vc.view.backgroundColor = [UIColor whiteColor];
 }
 
 @end

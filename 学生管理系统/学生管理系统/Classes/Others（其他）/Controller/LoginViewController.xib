@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
@@ -25,7 +25,6 @@
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_register_background" translatesAutoresizingMaskIntoConstraints="NO" id="dzv-5e-97O">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                    <animations/>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6e2-Rr-nYr" userLabel="输入父控件">
                     <rect key="frame" x="50" y="180" width="500" height="100"/>
@@ -35,19 +34,16 @@
                             <subviews>
                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入账号" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lQj-F1-qAl">
                                     <rect key="frame" x="61" y="0.0" width="439" height="35"/>
-                                    <animations/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="帐号：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ks-Lh-ScC">
                                     <rect key="frame" x="10" y="0.0" width="51" height="35"/>
-                                    <animations/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <animations/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="bottom" secondItem="lQj-F1-qAl" secondAttribute="bottom" id="2YB-ZV-wwa"/>
@@ -71,19 +67,16 @@
                             <subviews>
                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="dEJ-4v-ch1">
                                     <rect key="frame" x="61" y="0.0" width="439" height="35"/>
-                                    <animations/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密码：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phr-0J-XRx">
                                     <rect key="frame" x="10" y="0.0" width="51" height="35"/>
-                                    <animations/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <animations/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="bottom" secondItem="phr-0J-XRx" secondAttribute="bottom" id="8cS-8s-vJy"/>
@@ -97,7 +90,6 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="UAI-d6-J8k" secondAttribute="trailing" id="Eay-Lr-HxO"/>
@@ -111,12 +103,11 @@
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynd-RM-kUn">
                     <rect key="frame" x="520" y="30" width="50" height="50"/>
-                    <animations/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="JN3-xL-Gwe"/>
                         <constraint firstAttribute="width" constant="50" id="S5h-Lk-fds"/>
                     </constraints>
-                    <state key="normal" image="login_close_icon"/>
+                    <state key="normal" image="19F707F4-4CA9-41EA-BB70-81C1C09805B8"/>
                     <connections>
                         <action selector="closeBtnClick" destination="-1" eventType="touchUpInside" id="B8j-S7-mQH"/>
                     </connections>
@@ -126,7 +117,6 @@
                     <subviews>
                         <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POa-wU-rRE">
                             <rect key="frame" x="445" y="65" width="105" height="30"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <state key="normal" title="已有帐号，登录">
                                 <color key="titleColor" red="0.96470594409999999" green="0.97254908080000002" blue="0.21568629149999999" alpha="1" colorSpace="deviceRGB"/>
@@ -137,7 +127,6 @@
                         </button>
                         <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6n-s0-aFH">
                             <rect key="frame" x="50" y="5" width="500" height="35"/>
-                            <animations/>
                             <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="35" id="SQ7-aP-pTf"/>
@@ -155,7 +144,6 @@
                             </connections>
                         </button>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="M6n-s0-aFH" secondAttribute="trailing" constant="50" id="5UN-sS-i2n"/>
@@ -177,7 +165,6 @@
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dp6-Gq-1rd">
                             <rect key="frame" x="50" y="5" width="500" height="35"/>
-                            <animations/>
                             <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="35" id="6Ah-iI-UKX"/>
@@ -196,7 +183,6 @@
                         </button>
                         <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tbf-Na-ryW">
                             <rect key="frame" x="490" y="65" width="60" height="30"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <state key="normal" title="立即注册">
                                 <color key="titleColor" red="0.96470594409999999" green="0.97254908080000002" blue="0.21568629149999999" alpha="1" colorSpace="deviceRGB"/>
@@ -207,7 +193,6 @@
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U19-nc-X9I">
                             <rect key="frame" x="50" y="65" width="60" height="30"/>
-                            <animations/>
                             <state key="normal" title="忘记密码">
                                 <color key="titleColor" red="0.96470594409999999" green="0.97254908080000002" blue="0.21568629149999999" alpha="1" colorSpace="deviceRGB"/>
                             </state>
@@ -216,7 +201,6 @@
                             </connections>
                         </button>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="U19-nc-X9I" secondAttribute="bottom" constant="5" id="0K4-Py-pva"/>
@@ -238,7 +222,6 @@
                     </variation>
                 </view>
             </subviews>
-            <animations/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="TwB-ON-yCL" secondAttribute="trailing" id="13v-VE-AzP"/>
                 <constraint firstItem="1Xo-dA-NZW" firstAttribute="leading" secondItem="TwB-ON-yCL" secondAttribute="trailing" id="3As-Xn-wvV"/>
@@ -261,7 +244,22 @@
         </view>
     </objects>
     <resources>
-        <image name="login_close_icon" width="16" height="16"/>
+        <image name="19F707F4-4CA9-41EA-BB70-81C1C09805B8" width="16" height="16">
+            <mutableData key="keyedArchiveRepresentation">
+YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBMU
+GR4fJSYsLzU4VSRudWxs1QkKCwwNDg8QERJWTlNTaXplViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBz
+V05TQ29sb3KAAoAMEiTAAACAA4AKWHsxNiwgMTZ90hUKFhhaTlMub2JqZWN0c6EXgASACdIVChoYohsc
+gAWABoAJEAXTIAohIiMkV05TLmJhc2VbTlMucmVsYXRpdmWAAIAIgAdfEHxmaWxlOi8vL0FwcGxpY2F0
+aW9ucy9YY29kZS5hcHAvQ29udGVudHMvUGx1Z0lucy9JREVJbnRlcmZhY2VCdWlsZGVyS2l0LmlkZXBs
+dWdpbi9Db250ZW50cy9SZXNvdXJjZXMvSUJNaXNzaW5nSW1hZ2VHbHlwaC50aWZm0icoKSpaJGNsYXNz
+bmFtZVgkY2xhc3Nlc1VOU1VSTKIpK1hOU09iamVjdNInKC0uV05TQXJyYXmiLSvTMDEKMjM0V05TV2hp
+dGVcTlNDb2xvclNwYWNlRDAgMAAQA4AL0icoNjdXTlNDb2xvcqI2K9InKDk6V05TSW1hZ2WiOStfEA9O
+U0tleWVkQXJjaGl2ZXLRPT5Ucm9vdIABAAgAEQAaACMALQAyADcARQBLAFYAXQBkAHEAeACAAIIAhACJ
+AIsAjQCWAJsApgCoAKoArACxALQAtgC4ALoAvADDAMsA1wDZANsA3QFcAWEBbAF1AXsBfgGHAYwBlAGX
+AZ4BpgGzAbgBugG8AcEByQHMAdEB2QHcAe4B8QH2AAAAAAAAAgEAAAAAAAAAPwAAAAAAAAAAAAAAAAAA
+Afg
+</mutableData>
+        </image>
         <image name="login_register_background" width="320" height="568"/>
     </resources>
 </document>

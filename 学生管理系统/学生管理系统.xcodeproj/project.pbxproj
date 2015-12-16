@@ -21,6 +21,9 @@
 		151664A01C188773006CCCCB /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516649F1C188773006CCCCB /* MainTabBarController.m */; };
 		151664A81C189212006CCCCB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151664A61C189212006CCCCB /* LoginViewController.m */; };
 		151664A91C189212006CCCCB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151664A71C189212006CCCCB /* LoginViewController.xib */; };
+		151AC3C31C21B26500C1E131 /* UIView+SFWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 151AC3C21C21B26500C1E131 /* UIView+SFWFrame.m */; };
+		151AC3C91C21B8B000C1E131 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151AC3C81C21B8B000C1E131 /* DetailViewController.m */; };
+		151AC3CD1C21B9E000C1E131 /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151AC3CC1C21B9E000C1E131 /* DetailViewController.storyboard */; };
 		69FFA24516148B1C3CF8D3F9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3A9EFD7FE3461DDF9A32A9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +74,11 @@
 		151664A51C189212006CCCCB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		151664A61C189212006CCCCB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		151664A71C189212006CCCCB /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		151AC3C11C21B26500C1E131 /* UIView+SFWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SFWFrame.h"; sourceTree = "<group>"; };
+		151AC3C21C21B26500C1E131 /* UIView+SFWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SFWFrame.m"; sourceTree = "<group>"; };
+		151AC3C71C21B8B000C1E131 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		151AC3C81C21B8B000C1E131 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		151AC3CC1C21B9E000C1E131 /* DetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
 		4B3A9EFD7FE3461DDF9A32A9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB23DAA9C4EB07C2E424CC96 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E4F3A7A044D44D9F754E9B8E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -217,6 +225,7 @@
 				151664A31C189200006CCCCB /* Model */,
 				151664A41C189200006CCCCB /* View */,
 				151664A11C188C50006CCCCB /* ManagePCH.pch */,
+				151AC3C01C21B24500C1E131 /* Caregory */,
 			);
 			path = "Others（其他）";
 			sourceTree = "<group>";
@@ -236,6 +245,9 @@
 			children = (
 				151664921C188682006CCCCB /* SchoolViewController.h */,
 				151664931C188682006CCCCB /* SchoolViewController.m */,
+				151AC3C71C21B8B000C1E131 /* DetailViewController.h */,
+				151AC3C81C21B8B000C1E131 /* DetailViewController.m */,
+				151AC3CC1C21B9E000C1E131 /* DetailViewController.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -379,6 +391,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		151AC3C01C21B24500C1E131 /* Caregory */ = {
+			isa = PBXGroup;
+			children = (
+				151AC3C11C21B26500C1E131 /* UIView+SFWFrame.h */,
+				151AC3C21C21B26500C1E131 /* UIView+SFWFrame.m */,
+			);
+			path = Caregory;
+			sourceTree = "<group>";
+		};
 		2BF96F142E3D8D9189FB4FF5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -504,6 +525,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151AC3CD1C21B9E000C1E131 /* DetailViewController.storyboard in Resources */,
 				151664531C188237006CCCCB /* LaunchScreen.storyboard in Resources */,
 				151664A91C189212006CCCCB /* LoginViewController.xib in Resources */,
 				151664501C188237006CCCCB /* Assets.xcassets in Resources */,
@@ -567,9 +589,11 @@
 				151664971C188699006CCCCB /* BeautiesViewController.m in Sources */,
 				151664A01C188773006CCCCB /* MainTabBarController.m in Sources */,
 				151664481C188237006CCCCB /* AppDelegate.m in Sources */,
+				151AC3C31C21B26500C1E131 /* UIView+SFWFrame.m in Sources */,
 				151664451C188237006CCCCB /* main.m in Sources */,
 				151664941C188682006CCCCB /* SchoolViewController.m in Sources */,
 				1516649D1C1886F9006CCCCB /* TeacherViewController.m in Sources */,
+				151AC3C91C21B8B000C1E131 /* DetailViewController.m in Sources */,
 				1516649A1C1886E9006CCCCB /* StudentViewController.m in Sources */,
 				151664A81C189212006CCCCB /* LoginViewController.m in Sources */,
 				151664911C1885C1006CCCCB /* MainNavViewController.m in Sources */,
